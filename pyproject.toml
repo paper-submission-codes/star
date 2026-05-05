@@ -1,0 +1,19 @@
+[project]
+name = "star"
+version = "1.0"
+description = "is a modular research framework for studying LLM-driven agents in dynamic multi-agent environments."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "noise>=1.2.2",
+    "numpy>=2.2.5",
+    "pillow>=11.2.1",
+    "prompt-toolkit>=3.0.51",
+    "pygame>=2.6.1",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+    "websockets>=15.0.1",
+    "httpx",
+    "toml",
+]
